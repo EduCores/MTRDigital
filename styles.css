@@ -1221,14 +1221,14 @@ h6 {
   }
 
   .logo {
-    font-size: 1.6rem;
+    font-size: 3.35rem;
     flex-shrink: 0;
     width: auto;
     justify-content: flex-start;
   }
 
   .logo-badge {
-    font-size: 3.35rem;
+    font-size: 2.35rem;
     padding: 3px 10px;
   }
 
@@ -1488,11 +1488,11 @@ h6 {
 
     /* Logo más compacto en móvil pequeño */
     .logo {
-      font-size: 1.35rem;
+      font-size: 3.35rem;
     }
 
     .logo-badge {
-      font-size: 3.35rem;
+      font-size: 2.35rem;
       padding: 2px 8px;
     }
 
