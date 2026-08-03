@@ -757,11 +757,15 @@ h6 {
   padding: 50px;
   display: grid;
   grid-template-columns: 0.7fr 1.3fr;
-  gap: 50px;
-  align-items: center;
+  grid-template-areas:
+    "avatar bio"
+    "formation badges";
+  gap: 30px 50px;
+  align-items: start;
 }
 
 .founder-avatar-wrap {
+  grid-area: avatar;
   text-align: center;
   position: relative;
 }
@@ -787,6 +791,14 @@ h6 {
   border-radius: 10px;
   display: inline-block;
   font-size: 1.85rem;
+}
+
+.founder-info {
+  grid-area: bio;
+}
+
+.founder-formation {
+  grid-area: formation;
 }
 
 .founder-info h3 {
@@ -846,6 +858,7 @@ h6 {
 }
 
 .badges-row {
+  grid-area: badges;
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
@@ -1197,9 +1210,17 @@ h6 {
   }
 
   .hero-grid,
-  .founder-box,
   .contact-grid {
     grid-template-columns: 1fr;
+  }
+
+  .founder-box {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "avatar"
+      "bio"
+      "formation"
+      "badges";
   }
 
   .philosophy-grid,
