@@ -1,6 +1,6 @@
 /* ==========================================================================
    MTR DIGITAL - PREMIUM DESIGN SYSTEM
-   Inspired by goOne.es (Ultra-modern Dark Theme & Canary Yellow Accents)
+  (Ultra-modern Dark Theme & Canary Yellow Accents)
    ========================================================================== */
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800;900&display=swap');
@@ -553,7 +553,7 @@ h6 {
   font-size: 1.1rem;
 }
 
-/* Checkerboard Services Section (goOne.es Inspired) */
+/* Checkerboard Services Section */
 .services-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -1094,7 +1094,7 @@ h6 {
   color: var(--accent-yellow);
 }
 
-/* Footer (goOne Style) */
+/* Footer */
 .footer {
   background: #050507;
   border-top: 1px solid var(--border-color);
@@ -1222,7 +1222,7 @@ h6 {
   }
 
   .logo {
-    font-size: 3.35rem;
+    font-size: 3.6rem;
     flex-shrink: 0;
     width: auto;
     justify-content: flex-start;
@@ -1342,7 +1342,7 @@ h6 {
 
 
     .hero {
-      padding-top: 32%;
+      padding-top: 30%;
       padding-bottom: 60px;
     }
 
@@ -1422,7 +1422,7 @@ h6 {
 
     .hero {
       min-height: 85vh;
-      padding-top: 32%;
+      padding-top: 30%;
       padding-bottom: 40px;
     }
 
@@ -1489,7 +1489,7 @@ h6 {
 
     /* Logo más compacto en móvil pequeño */
     .logo {
-      font-size: 3.35rem;
+      font-size: 3.6rem;
     }
 
     .logo-badge {
