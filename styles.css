@@ -134,7 +134,7 @@ h6 {
   width: 100%;
   max-width: var(--container-max);
   margin: 0 auto;
-  padding: 0 5px;
+  padding: 0 7px;
 }
 
 .section {
@@ -967,7 +967,7 @@ h6 {
 }
 
 .btn-dark {
-  background: var(--text-dark);
+  background: #21b759;
   color: #fff;
 }
 
@@ -1388,7 +1388,7 @@ h6 {
 
   @media (max-width: 480px) {
     .container {
-      padding: 0 5px;
+      padding: 0 7px;
     }
 
     .founder-avatar {
